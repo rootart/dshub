@@ -1,0 +1,27 @@
+{
+  "name": "DSHub",
+  "version": "0.3",
+  "description": "Django Stars Hub",
+  "options_page": "options.html",
+  "default_icon": "images/icon.png",
+  "browser_action": {
+    "default_title": "DSHub",
+    "default_icon": "images/icon.png",
+    "popup": "app.html"
+  },
+  "permissions": [
+    "background",
+    "tabs",
+    "notifications",
+    "unlimitedStorage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": { 
+    "16": "images/icon.png",
+    "19": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}
